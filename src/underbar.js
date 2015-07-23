@@ -109,7 +109,6 @@
   _.uniq = function(array) {
     var  returner=[];
     _.each(array,function(item){
-      console.log(_.indexOf(returner,item))
       if(_.indexOf(returner,item)===-1){
         returner.push(item);
       }
